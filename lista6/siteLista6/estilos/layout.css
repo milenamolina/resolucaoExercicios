@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(252, 246, 238);
+    margin: 0;
+}
+main{
+    padding:50px;
+    margin: 50px;
+    margin:0 auto; 
+    max-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+article{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    width: 500px;
+    height: auto;
+    line-height: 1;
+
+
+}
+aside{
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width:230px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+aside h3{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #e5d6bd;
+    height:130px;
+    width:100%;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1;
+    padding: 5px;
+
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+    background-color:#e5d6bd;
+    height:50px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    
+}
+.titulo{
+    text-align: center;
+    
+
+}
+.produtos{
+    height: auto;
+    padding:12px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#e5d6bd;
+    width: 100%;
+    max-width: 1000px;
+    
+
+}
+header img{
+    border-radius:50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 5px;
+}
+header{
+    display: flex;
+    margin-bottom: 10px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #562f1f;
+    padding: 5px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #562f1f;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    font-style:italic;
+}
+footer a{
+    text-decoration: none;
+    color: #562f1f;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer a:visited{
+    color: black;
+}
+footer a:hover{
+    font-style: italic;
+}
+.imagens img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+}

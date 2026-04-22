@@ -1,0 +1,36 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+article{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding:30px;
+    margin-bottom: 15px;
+    margin-left:10px;
+
+}
+section{
+    border: 2px solid orange;
+    padding:15px;
+    margin-bottom: 15px;
+    margin-left: 350px;
+}
+aside{
+    float: left;
+    border: 2px solid rgb(73, 167, 106);
+    width: 250px;
+    padding: 20px;
+}
+.foto{
+    border-radius:50%;
+    width: 80px;
+    height: 80px;
+}
+main{
+    padding: 40px;
+    margin: 40px;
+    border: 2px solid black;
+}
+aside p{
+    line-height:2.5;
+}

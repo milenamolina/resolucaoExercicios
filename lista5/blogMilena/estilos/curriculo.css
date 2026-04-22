@@ -1,0 +1,38 @@
+body{
+    background-color: #ddd;
+    font-family:'Arial Narrow';
+    color: #444;
+    line-height:1.5;
+    align-items: center;
+
+}
+h2{
+    color: #db8102;
+    font-size: 30px;
+    font-weight: bold;
+    line-height:2.5;
+    margin: 0;
+    align-items: center;
+    
+}
+h1{
+    color: #db8102;
+    font-size: 40px;
+    font-weight: bold;
+    line-height:2.5;
+    margin: 0;
+    align-items: center;
+}
+main{
+    background-color:#fff;
+    box-sizing: border-box;
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+
+}
+img{
+    width:35%;
+    height:35%;
+    align-items: center;
+}
