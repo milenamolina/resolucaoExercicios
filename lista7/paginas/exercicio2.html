@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/exercicio2.css">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <main>
+        <form id="formulario" action="respFormulario.html" method="post">
+            <fieldset>
+                <h4>Não é associado? Faça seu cadastro:</h4>
+                <label for="lbNome">Nome:</label>
+                <input type="text" id="ipNome" name="ipNome" required>
+                
+
+                <label for="lbNomeCompleto">Nome Completo:</label>
+                <input type="text" id="ipNomeCompleto" name="ipNomeCompleto" required>
+                
+
+                <label for="lbCpf">CPF:</label>
+                <input type="text" id="ipCpf" name="ipCpf" required>
+                
+    
+                <label for="lbEmail">E-mail:</label>
+                <input type="email" id="iEmail" name="ipEmail" required>
+                
+
+                <label for="lbWebsite">Website:</label>
+                <input type="url" id="ipWebsite" name="ipWebsite" required>
+                
+
+                <label for="lbEndereco">Endereço:</label>
+                <input type="text" id="ipEndereco" name="ipEndereco" required>
+                
+                
+                <label for="lbBairro">Bairro:</label>
+                <input type="text" id="ipBairro" name="ipBairro" required>
+
+                <label for="lbCidade">Cidade:</label>
+                <input type="text" id="ipCidade" name="ipCidade" required>
+                
+
+                <label for="lbCep">Cep:</label>
+                <input type="text" id="ipCep" name="ipCep">
+
+                <label for="lbUf">UF:</label>
+                <select name="slUf" id="slUf">
+                    <option value="ba">BA</option>
+                    <option value="sp">SP</option>
+                    <option value="mg">MG</option>
+                    <option value="rs">RS</option>
+                    <option value="pe">PE</option>
+                    <option value="rj">RJ</option>
+                    <option value="sc">SC</option>
+                    <option value="df">DF</option>
+                    <option value="ce">CE</option>
+                </select> 
+                
+
+                <label for="lbTelefone">Telefone:</label>
+                <input type="tel" id="ipTelefone" name="ipTelefone" required> 
+
+                <label for="lbFax">Fax:</label>
+                <input type="text" id="ipFax" name="ipFax">
+                
+
+                <label for="lbData">Data de nascimento:</label>
+                <input type="date" id="ipData" name="ipData"> 
+
+                <label for="lbSexo">Sexo:</label>
+                <input type="radio" id="ipMasc" name="sexo" value="M">
+                <label for="lbMasc">M</label>
+                <input type="radio" id="ipFem" name="sexo" value="F">
+                <label for="lbFem">F</label>
+                
+
+                <label for="lbCel">Celular:</label>
+                <input type="tel" id="ipCel" name="ipCel">
+
+                <label for="lbEst">Est.Civil:</label>
+                <select name="slEst" id="slEst">
+                    <option value="casado">Casado(a)</option>
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="viuvo">Viúvo(a)</option>
+                </select>
+                
+
+                <label for="lbLogin">Login:</label>
+                <input type="text" id="ipLogin" name="ipLogin">
+
+                <label for="lbSenha">Senha:</label>
+                <input type="password" id="ipSenha" name="ipSenha">
+                
+
+                <p>Deseja receber informações sobre os seguintes assuntos abaixo:</p>
+
+                <label for="lbTec">Tecnologia</label>
+                <input type="checkbox" id="ipTec" name="ipTec">
+
+                <label for="lbEsportes">Esportes</label>
+                <input type="checkbox" id="ipEsportes" name="ipEsportes">
+
+                <label for="lbAutomoveis">Automóveis</label>
+                <input type="checkbox" id="ipAutomoveis" name="ipAutomoveis">
+
+                <label for="lbCulinaria">Culinária</label>
+                <input type="checkbox" id="ipCulinaria" name="ipCulinaria">
+
+                <label for="lbPolitica">Política</label>
+                <input type="checkbox" id="ipPolitica" name="ipPolitica">
+
+                <label for="lbPolicial">Policial</label>
+                <input type="checkbox" id="ipPolicial" name="ipPolicial">
+
+                <label for="lbTempo">Tempo</label>
+                <input type="checkbox" id="ipTempo" name="ipTempo">
+
+                <label for="lbCultura">Cultura</label>
+                <input type="checkbox" id="ipCultura" name="ipCultura">
+
+                <label for="lbEconomia">Economia</label>
+                <input type="checkbox" id="ipEconomia" name="ipEconomia">
+
+                <label for="lbJogos">Jogos</label>
+                <input type="checkbox" id="ipJogos" name="ipJogos">
+
+                <label for="lbEducacao">Educação</label>
+                <input type="checkbox" id="ipEducacao" name="ipEducacao">
+
+                <label for="lbViagem">Viagem</label>
+                <input type="checkbox" id="ipViagem" name="ipViagem">
+
+                <label for="lbEmpregos">Empregos</label>
+                <input type="checkbox" id="ipEmpregos" name="ipEmpregos">
+
+                <label for="lbModaEstilo">Moda e Estilo</label>
+                <input type="checkbox" id="ipModaEstilo" name="ipModaEstilo">
+                <br>
+
+                <label for="lbRegras">Li as regras de cadastro e autorizo a criação do usuário</label>
+                <input type="checkbox" id="ipRegras" name="ipRegras">
+                <br>
+
+
+                <input type="submit" value="Confirmar">   
+                <input type="reset" value="Retomar"> 
+            </fieldset>
+
+            </form>
+        
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+#formulario {
+    width: 780px; 
+    margin: 30px auto;
+    font-family: Arial;
+}
+
+fieldset {
+    border: none;
+    padding: 15px 0;
+}
+
+
+fieldset h4 {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    box-sizing: border-box;
+
+    background: linear-gradient(to right, #6ec1e4 50%, #0b0b5c 50%);
+}
+
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin-top: 10px;
+}
+
+
+#ipNome,
+#ipNomeCompleto,
+#ipCpf,
+#iEmail,
+#ipWebsite,
+#ipEndereco {
+    width: 520px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+
+#ipEndereco ~ label,
+#ipEndereco ~ input,
+#ipEndereco ~ select {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+#ipEndereco ~ input,
+#ipEndereco ~ select {
+    width: 220px;
+    padding: 7px;
+}
+
+
+#ipEndereco ~ label:nth-of-type(odd) {
+    clear: left;
+}
+
+#ipCep {
+    width: 160px;
+}
+
+#slUf {
+    width: 40px;
+}
+
+
+#ipTelefone {
+    width: 160px;
+}
+
+#ipFax {
+    width: 160px;
+}
+
+#ipCidade{
+    width: 160px;
+}
+#ipData {
+    width: 160px;
+}
+#ipBairro{
+    width: 160px;
+}
+#ipCel{
+    width: 160px;
+    margin: 0;
+}
+
+input[type="radio"] {
+    margin: 0 2px;
+}
+
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    margin-top: 20px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
